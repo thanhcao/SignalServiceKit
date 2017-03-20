@@ -21,8 +21,8 @@ typedef enum { kSMSVerification, kPhoneNumberVerification } VerificationTranspor
 
 #define textSecureHTTPTimeOut 10
 
-#define textSecureWebSocketAPI @"wss://textsecure-service.whispersystems.org/v1/websocket/"
-#define textSecureServerURL @"https://textsecure-service.whispersystems.org/"
+#define textSecureWebSocketAPI @"wss://192.168.1.81:9000/v1/websocket/"
+#define textSecureServerURL @"http://192.168.1.81:8080"
 
 //#define textSecureWebSocketAPI    @"wss://textsecure-service-staging.whispersystems.org/v1/websocket/"
 //#define textSecureServerURL       @"https://textsecure-service-staging.whispersystems.org/"
